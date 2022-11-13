@@ -1,1 +1,2 @@
-# codember2022
+# codember 2022
+to practice [here](https://codember.dev/) 👨‍💻
