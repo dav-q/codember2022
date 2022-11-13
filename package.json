@@ -1,0 +1,18 @@
+{
+  "name": "codember-davq",
+  "version": "1.0.0",
+  "description": "challenges to practice",
+  "scripts": {
+    "ch1": "ts-node challenge01"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dav-q/codember2022.git"
+  },
+  "author": "dav-q",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dav-q/codember2022/issues"
+  },
+  "homepage": "https://github.com/dav-q/codember2022#readme"
+}
