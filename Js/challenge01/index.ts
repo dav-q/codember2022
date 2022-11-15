@@ -1,4 +1,4 @@
-import { users } from "./users_data";
+import { example_users } from "./users_data";
 import * as userTypes from "./user_types";
 
 /**
@@ -77,4 +77,4 @@ const validateBots = (db_data: string): userTypes.IValidateBots => {
     last_user_valid,
   };
 };
-console.log(validateBots(users));
+console.log(validateBots(example_users));

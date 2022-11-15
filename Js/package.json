@@ -14,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/dav-q/codember2022/issues"
   },
-  "homepage": "https://github.com/dav-q/codember2022#readme"
+  "homepage": "https://github.com/dav-q/codember2022#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.9"
+  }
 }
