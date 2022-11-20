@@ -60,4 +60,4 @@ const calculateLights = (lights:Array<string>):ILightsData => {
         color
     }
 }
-console.log(calculateLights(test_light))
+console.log(calculateLights(test_light)) 

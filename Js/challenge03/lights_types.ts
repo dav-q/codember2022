@@ -1,4 +1,4 @@
 export interface ILightsData {
-    max: number;
-    color: string;
+  max: number;
+  color: string;
 }
