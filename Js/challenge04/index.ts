@@ -4,7 +4,7 @@ import * as passwordType from "./password_types";
  * Found Password
  * @param range range to make array of passwords
  * @param right_index index from right password
- * @returns string
+ * @returns passwordType.IFoundPassword
  */
 const findPassword = (range: passwordType.IRangePassword, right_index: number): passwordType.IFoundPassword => {
 
