@@ -1,0 +1,52 @@
+Challenge 5: Frameworks and Libraries Battle Royale
+
+Problem
+
+There is so much framework and library that we don't know what to use anymore. So a committee has decided to do a kind of The Hunger Games to decide which technology stays.
+
+He has placed all the technologies in a circle randomly. The tech at index 0 starts by killing the one to its immediate right (index + 1).
+
+The next turn is for the tech that is alive to the right of the one that just died. And so on until there is only one left. Take a look at this example of a group of 10 technologies, step by step:
+
+           5
+      6     4
+   7           3
+   8           2
+      9     1
+         0
+
+0 kills 1 
+2 kills 3 
+4 kills 5 
+6 kills 7 
+8 kills 9 
+         X
+     6      4
+   X           X
+   8           2
+      X     X
+         0
+0 kills 2 
+4 kills 6 
+8 kills 0 
+          X
+     X      4
+   X           X
+   8           X
+      X     X
+         X
+4 kills 8 
+         X
+     X      4
+   X           X
+   X           X
+      X     X
+         X
+The technology in index 4 is the one that has survived.
+
+Now, to prove that we are capable of creating a working algorithm, we have the list of patrons of the midudev community: https://codember.dev/patrons.json 
+
+You have to create an algorithm that tells us which user would survive using the same system.
+
+How to submit the solution
+Submit the solution with the submit command, and the index of the surviving person and their username, separated by a hyphen.
